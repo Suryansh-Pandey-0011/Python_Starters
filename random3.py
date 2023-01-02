@@ -1,0 +1,6 @@
+a=input("Enter a value: ")
+b=input("Enter b value: ")
+print(a)
+print(chr(int(a)))
+print(hex(int(a)))
+print(complex(int(a),int(b)))

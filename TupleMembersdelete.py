@@ -1,0 +1,8 @@
+d=input("dat: ")
+l=tuple(d.split(','))
+n=input("elememt: ")
+print("before deletion:",l)
+l=list(l)
+l.remove(n)
+l=tuple(l)
+print("after deletion:",l)

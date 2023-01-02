@@ -1,0 +1,10 @@
+l1=input("data1: ").split(',')
+l2=input("data2: ").split(',')
+d=dict(zip(l1,l2))
+print("all(dict1):",all(d))
+print("any(dict1):",any(d))
+print("len(dict1):",len(d))
+print("sorted(dict1):",sorted(d))
+d=dict(sorted(d.items()))
+for k,v in sorted(d.items()):
+    print(k,v)

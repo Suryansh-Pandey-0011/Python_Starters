@@ -1,0 +1,4 @@
+This is how file handling is done...........
+Line 2
+Line 3
+Line 4

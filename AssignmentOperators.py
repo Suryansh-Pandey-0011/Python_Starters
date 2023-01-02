@@ -1,0 +1,22 @@
+f=x=int(input("x : "))
+y=int(input("y : "))
+x=y
+print("x=y :",x)
+x=f
+x+=y
+print("x+=y :",x)
+x=f
+x-=y
+print("x-=y :",x)
+x=f
+x*=y
+print("x*=y :",x)
+x=f
+x/=y
+print("x/=y :",x)
+x=f
+x**=y
+print("x**=y :",x)
+x=f
+x//=y
+print("x//=y :",x)

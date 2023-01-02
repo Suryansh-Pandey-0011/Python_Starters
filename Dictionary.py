@@ -1,0 +1,5 @@
+l1=(input("Data1: ")).split(',')
+l2=(input("Data12: ")).split(',')
+d=dict(zip(l1,l2))
+k=input("key: ")
+print("value:",d.get(k))

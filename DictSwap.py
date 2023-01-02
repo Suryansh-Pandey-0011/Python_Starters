@@ -1,0 +1,6 @@
+l1=input("data1: ").split(',')
+l2=input("data2: ").split(',')
+d=list(zip(l1,l2))
+dr=list(zip(l2,l1))
+print("Before Exchange:",d)
+print("After Exchange:",dr)

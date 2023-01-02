@@ -1,0 +1,6 @@
+a=input("Enter a : ")
+b=input("Enter b : ")
+print("a+b = ",(a+b))
+c=int(input("Enter c : "))
+d=int(input("Enter d : "))
+print("c+d = ",(c+d))

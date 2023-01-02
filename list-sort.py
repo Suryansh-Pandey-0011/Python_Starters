@@ -1,0 +1,8 @@
+d=input("data: ")
+l=d.split(',')
+l=list(map(lambda x:int(x) ,l))
+print("list:",l)
+print("sum:",sum(l))
+l2=list(map(lambda x:x**2 ,l))
+print("squared list:",l2)
+print("sum of squared list:",sum(l2))
